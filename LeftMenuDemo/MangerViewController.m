@@ -36,7 +36,7 @@ static MangerViewController * _mangerVC = nil;
     // Do any additional setup after loading the view.
 }
 
-- (void)setLeftViewController:(UIViewController *)leftVC mianViewController:(UIViewController *)mainVC {
+- (void)setLeftViewController:(UIViewController *)leftVC mainViewController:(UIViewController *)mainVC {
     self.leftVCView = leftVC.view;
     self.mainVCView = mainVC.view;
     [_mangerVC addChildViewController:leftVC];

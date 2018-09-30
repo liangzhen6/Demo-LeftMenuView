@@ -10,7 +10,7 @@
 
 @interface MangerViewController : UIViewController
 + (id)shareMangerViewController;
-- (void)setLeftViewController:(UIViewController *)leftVC mianViewController:(UIViewController *)mainVC;
+- (void)setLeftViewController:(UIViewController *)leftVC mainViewController:(UIViewController *)mainVC;
 - (void)showLeftViewAnimate:(BOOL)animate duration:(NSTimeInterval)duration;
 - (void)dismissLeftViewAnimate:(BOOL)animate duration:(NSTimeInterval)duration;
 - (void)mainOpenLeftViewHidden:(BOOL)hidden;

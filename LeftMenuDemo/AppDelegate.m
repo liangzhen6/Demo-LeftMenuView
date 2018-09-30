@@ -37,7 +37,7 @@
     MainTabbarViewController * mainTabbar = [[MainTabbarViewController alloc] init];
     
     MangerViewController *mangerVC = [MangerViewController shareMangerViewController];
-    [mangerVC setLeftViewController:left mianViewController:mainTabbar];
+    [mangerVC setLeftViewController:left mainViewController:mainTabbar];
     
     self.window.rootViewController = mangerVC;
     [self.window makeKeyAndVisible];
